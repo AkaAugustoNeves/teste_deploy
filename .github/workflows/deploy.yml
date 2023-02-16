@@ -23,5 +23,5 @@ jobs:
         with:
           maven-version: 3.8.2
 
-       - name: Unit Tests
+      - name: Unit Tests
         run: mvn clean package
