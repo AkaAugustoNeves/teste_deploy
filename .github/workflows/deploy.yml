@@ -22,3 +22,6 @@ jobs:
         uses: stCarolas/setup-maven@v4.4
         with:
           maven-version: 3.8.2
+
+       - name: Unit Tests
+        run: mvn clean package
